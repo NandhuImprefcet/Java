@@ -9,7 +9,7 @@ class Unique1
         for(int i=0;i<line.length();i++)
         {
             char let=line.charAt(i);
-            if((let==' ')||(let == '.'))
+            if((let==' ')||(let == '.')||(i==line.length()-1))
             {
                 if(line.indexOf(word)==line.lastIndexOf(word))
                     System.out.println(word);

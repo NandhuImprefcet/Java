@@ -15,6 +15,7 @@ class Student extends Person
     void display()
     {
         message();
+        super.message();
     }
 }
 

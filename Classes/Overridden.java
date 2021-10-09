@@ -21,7 +21,9 @@ class Circle extends Shapes
         System.out.println("Circle is 3.14 * radius * radius");
     }
 }
-
+/*
+This type of referinig the subclass object with the variable of the super class is called upcasting
+*/
 public class Overridden
 {
     public static void main(String []args)
